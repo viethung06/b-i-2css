@@ -1,0 +1,125 @@
+/* =========================
+   BASIC STYLING
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Skip link */
+.skip {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip:focus {
+    top: 10px;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+nav img {
+    width: 10%;
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+/* li {
+    display: inline-block;
+    margin: 10px;
+} */
+
+
+/* =========================
+   GRID
+========================= */
+
+.grid {
+    display: grid;
+
+    /* Two columns, approximately 40% each */
+    grid-template-columns: 40% 40%;
+
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+
+/* =========================
+   FLEX
+========================= */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #0645ad;
+}
+
+a:focus,
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
